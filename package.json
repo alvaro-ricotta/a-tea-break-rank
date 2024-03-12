@@ -1,0 +1,18 @@
+{
+  "name": "a-tea-break-rank-calculator",
+  "version": "1.1.1",
+  "description": "a simple tea rank calculator break",
+  "main": "dist-node/index.js",
+  "borwser": "dist-broowser/index.js",
+  "scripts": {
+    "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
+    "build-node": "tsc src/index.ts --outDir dist-node",
+    "build": "npm run build-browser & npm run build-node"
+  },
+  "keywords": ["calculator","tea","rank", "a-tea-break-rank-calculator", "a", "tea", "break", "rank", "calculator"],
+  "author": "alvaro ezequiel ricotta",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
